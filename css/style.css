@@ -1,0 +1,725 @@
+header{
+    margin-top: -1%;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+}
+header nav{
+
+}
+header nav .container-fluid{
+    height: 17vh;
+    background-color: #fff;
+
+}
+header nav .container-fluid .navbar-brand{
+
+}
+header nav .container-fluid .navbar-brand .time-zone{
+
+}
+header nav .container-fluid .home{
+    
+
+}
+header nav .container-fluid .home .nav-item{
+
+}
+header nav .container-fluid .home .nav-item .active{
+    color: #141517;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 25px;
+
+}
+header nav .container-fluid .home .hot{
+    position: relative;
+
+}
+header nav .container-fluid .home .hot::before{
+    content: "Hot";
+    background-color: #ff003c;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    right: -10px;
+
+}
+
+header nav .container-fluid .home .nav-item .active:hover{
+    color: red;
+}
+header nav .container-fluid .shopping{
+    list-style-type: none;
+    margin-right: 20px;
+
+}
+header nav .container-fluid .shopping li{
+    display: inline;
+    padding: 15px;
+
+}
+header nav .container-fluid .shopping li a{
+    color: #000000;
+
+}
+header nav .container-fluid .shopping li a i{
+
+}
+header nav .container-fluid .shopping li a:hover{
+    color: red;
+}
+.dropdown-menu li a{
+    color: #141517;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.dropdown-menu li a:hover{
+    color: red;
+    background-color: white;
+}
+.dropdown-menu{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+main{
+
+}
+main .first{
+    background-color: rgb(231, 231, 231);
+
+}
+main .first .your{
+
+}
+main .first .your .products{
+
+}
+main .first .your .products .zone{
+
+}
+main .first .your .products .zone .perfect{
+
+}
+main .first .your .products .zone .perfect .style{
+    font-size: 96px;
+    font-weight: 800;
+    color: #0b1c39;
+    margin-top: 290px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+main .first .your .products .zone .perfect .style::before{
+    content: "";
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgb(231, 231, 231) 5%, rgb(231, 231, 231) 100%);
+    animation: fade 5s linear;
+}
+@keyframes fade{
+    0%{left: -20%;}
+    100%{left: 120%;}
+}
+main .first .your .products .zone .perfect .ut{
+    color: #212025;
+    font-size: 17px;
+    padding-right: 50px;
+    margin-top: 50px;
+    
+
+}
+main .first .your .products .zone .perfect .shop{
+    margin-top: 70px;
+
+}
+main .first .your .products .zone .perfect .shop .now{
+    display: inline-block;
+    padding: 17px 35px;
+    background-color: #212025ce;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+main .first .your .products .watch{
+
+}
+main .first .your .products .watch .hero-img{
+    overflow: hidden;
+
+}
+main .first .your .products .watch .hero-img .web{
+    animation-name: second;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 90%;
+
+}
+@keyframes second{
+    from {transform: scale(1.0);}
+    to{ transform: scale(1.1);}
+
+}
+main .second{
+
+}
+main .second .my{
+
+}
+main .second .my .item{
+
+}
+main .second .my .item .oclock{
+
+}
+main .second .my .item .oclock .shirt{
+    margin-top: 180px;
+    margin-bottom: 70px;
+
+}
+main .second .my .item .oclock .shirt .head{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+main .second .my .img-item{
+
+}
+main .second .my .img-item .time{
+
+}
+main .second .my .img-item .time .product-img{
+
+}
+main .second .my .img-item .time .product-img .action{
+    overflow: hidden;
+
+}
+main .second .my .img-item .time .product-img .action .picture{
+    transition: all 1s;
+
+}
+main .second .my .img-item .time .product-img .action .picture:hover{
+    transform: scale(1.1);
+
+}
+main .second .my .img-item .time .product-img .text{
+    text-align: center;
+    margin-top: 30px;
+
+}
+main .second .my .img-item .time .product-img .text .thermo{
+
+}
+main .second .my .img-item .time .product-img .text .thermo .ball{
+    color: #444444;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+main .second .my .img-item .time .product-img .text .money{
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+main .three{
+    margin-top: 200px;
+
+}
+main .three .our{
+
+}
+main .three .our .film{
+
+}
+main .three .our .film .prestije{
+
+}
+main .three .our .film .prestije .inner{
+    overflow: hidden;
+
+}
+main .three .our .film .prestije .inner:hover .mouse{
+    transform: scale(1.1);
+}
+main .three .our .film .prestije .inner .mouse{
+    width: 645px;
+    transition: all 1.5s;
+
+}
+main .three .our .film .prestije .inner .mouse:hover
+main .three .our .film .memento{
+
+}
+main .three .our .film .memento .cat{
+    width: 310px;
+    transition: 1.5s;
+
+}
+main .three .our .film .memento .inner{
+    overflow: hidden;
+
+}
+main .three .our .film .memento .inner .cat{
+}
+main .three .our .film .memento .inner:hover .cat{
+    transform: scale(1);
+    background-color: #ea0000;
+}
+main .three .our .film .mile{
+
+}
+main .three .our .film .mile .cartoon{
+
+}
+main .three .our .film .mile .cartoon .mulholland{
+
+}
+main .three .our .film .mile .cartoon .mulholland .inner{
+    overflow: hidden;
+
+}
+main .three .our .film .mile .cartoon .mulholland .inner:hover .write{
+    transform: scale(1.2);
+}
+main .three .our .film .mile .cartoon .mulholland .inner .write{
+    transition: all 1.5s;
+    width: 310px;
+
+}
+main .three .our .film .mile .cartoon .squid{
+    margin-top: 24px;
+
+}
+main .three .our .film .mile .cartoon .squid .inner{
+    overflow: hidden;
+
+}
+main .three .our .film .mile .cartoon .squid .inner:hover .atv{
+    transform: scale(1.2);
+}
+main .three .our .film .mile .cartoon .squid .inner .atv{
+    width: 310px;
+    transition: all 1.5s;
+
+}
+main .four{
+
+}
+main .four .yourself{
+
+}
+main .four .yourself .nike{
+    text-align: center;
+    margin-top: 190px;
+
+}
+main .four .yourself .nike .note{
+
+}
+main .four .yourself .nike .elit{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+main .four .yourself .nike .tempor{
+    color: #777;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+
+}
+main .four .yourself .adidas{
+
+}
+main .four .yourself .adidas .book{
+
+}
+main .four .yourself .adidas .book .single-popular{
+
+}
+main .four .yourself .adidas .book .single-popular .popular-img{
+
+}
+main .four .yourself .adidas .book .single-popular .popular-img .dog{
+
+}
+main .four .yourself .adidas .book .single-popular .popular-img .img-cap{
+    text-align: center;
+
+}
+main .four .yourself .adidas .book .single-popular .popular-img .img-cap .add{
+
+}
+main .four .yourself .adidas .book .single-popular .popular-img .img-cap .add .to{
+    text-decoration: none;
+
+}
+
+main .four .yourself .adidas .book .single-popular .popular-caption{
+    text-align: center;
+
+}
+main .four .yourself .adidas .book .single-popular .popular-caption .gloves{
+
+}
+main .four .yourself .adidas .book .single-popular .popular-caption .gloves .site{
+    color: #444444;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+main .four .yourself .adidas .book .single-popular .popular-caption .etip{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+main .four .versace{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+}
+main .four .versace .dolce{
+
+}
+main .four .versace .dolce .more{
+
+}
+main .four .versace .dolce .more .gabana{
+    background-color: #ff2020;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 33px;
+    font-weight: 600;
+}
+main .five{
+
+}
+main .five .they{
+
+}
+main .five .they .samsung{
+
+}
+main .five .they .samsung .english{
+
+}
+main .five .they .samsung .english .enet{
+
+}
+main .five .they .samsung .english .enet .choice{
+    color: #000;
+    font-size: 56px;
+    font-weight: 700;
+
+}
+main .five .they .samsung .english .enet .enim{
+    color: #777;
+    width: 83%;
+    font-size: 17px;
+    margin-top: 50px;
+
+}
+main .five .they .samsung .english .enet .minim{
+    background-color: #ff2020;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 17px 30px;
+    margin-top: 40px;
+    display: block;
+    width: 40%;
+    text-align: center;
+
+}
+main .five .they .samsung .rus{
+
+}
+main .five .they .samsung .rus .cellini{
+
+}
+main .five .they .samsung .rus .cellini .quis{
+
+}
+main .six{
+
+}
+main .six .their{
+
+}
+main .six .their .edward{
+
+}
+main .six .their .edward .norton{
+    margin-top: 100px;
+
+}
+main .six .their .edward .norton .rolex{
+
+}
+main .six .their .edward .norton .rolex .kfc{
+
+}
+main .six .their .edward .brad{
+    margin-top: 300px;
+
+}
+main .six .their .edward .brad .nisi{
+
+}
+main .six .their .edward .brad .nisi .of{
+    color: #000;
+    font-size: 56px;
+    font-weight: 700;
+
+}
+main .six .their .edward .brad .nisi .venom{
+    color: #777;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 50px;
+}
+.btn{
+    background: #ff2020;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 30px 28px;
+    border-radius: 0px;
+    line-height: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin: 10px;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #4a4a4b;
+    z-index: 0;
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+    border-radius: 0px;
+}
+.btn:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+    color: #fff  !important;
+    z-index: -1;
+    
+}
+main .seven{
+    margin-top: 200px;
+
+}
+main .seven .myself{
+    background-color: #ea0000;
+
+}
+main .seven .myself .joli{
+    height: 220px;
+
+}
+main .seven .myself .joli{
+
+}
+main .seven .myself .joli .love{
+
+}
+main .seven .myself .joli .love .method{
+    padding: 40px 50px 0 50px;
+
+}
+main .seven .myself .joli .love .method i{
+    font-size: 40px;
+    color: #fff;
+
+}
+main .seven .myself .joli .love .method .shipping{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+main .seven .myself .joli .love .method .aorem{
+    color: #d3d1d1;
+    margin-top: 20px;
+
+}
+footer{
+    margin-top: 150px;
+    height: 500px;
+
+}
+footer .quick{
+
+}
+footer .quick .offer{
+
+}
+footer .quick .offer .get{
+
+}
+footer .quick .offer .get .woman{
+
+}
+footer .quick .offer .get .woman .contact{
+
+}
+footer .quick .offer .get .woman .asorem{
+    color: #868c98;
+    margin-top: 40px;
+
+}
+footer .quick .offer .get .man{
+
+}
+footer .quick .offer .get .man .quick{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 29px;
+
+}
+footer .quick .offer .get .man ul{
+    list-style-type: none;
+
+}
+footer .quick .offer .get .man ul li{
+    padding: 14px 0 0 0;
+
+}
+footer .quick .offer .get .man ul li a{
+    color: #868c98;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+footer .quick .offer .get .man ul li a:hover{
+    color: #ff2020;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-direction: alternate;
+
+}
+@keyframes example{
+    from {left: 10px;}
+    top {left:10px;}
+}
+footer .quick .offer .copy{
+    margin-top: 100px;
+
+}
+footer .quick .offer .copy .reserve{
+
+}
+footer .quick .offer .copy .reserve .this{
+    color: #888888;
+    font-weight: 300;
+
+}
+footer .quick .offer .copy .reserve .this i{
+    color: #ff2020;
+    font-weight: 900;
+
+}
+footer .quick .offer .copy .reserve .this a{
+    color: #ff2020;
+    text-decoration: none;
+}
+footer .quick .offer .copy .mod{
+
+}
+footer .quick .offer .copy .mod ul{
+    list-style-type: none;
+    text-align: right;
+
+}
+footer .quick .offer .copy .mod ul li{
+    display: inline;
+
+}
+footer .quick .offer .copy .mod ul li a{
+
+}
+footer .quick .offer .copy .mod ul li a i{
+    color: #222222;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: all 0.5s;
+
+}
+footer .quick .offer .copy .mod ul li a i:hover{
+    color: #ff2020;
+    transform: rotateY(180deg);
+}
+@media screen and (max-with: 992px){
+    main .first .your .products .zone .perfect .style{
+    }
+    .wow{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
